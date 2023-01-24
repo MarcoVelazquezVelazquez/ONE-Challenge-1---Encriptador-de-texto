@@ -1,0 +1,109 @@
+* {    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    width: 500px;
+    margin: auto;
+}
+
+.background{
+    background-image: url("Imágenes/KHM.jpeg");
+    background-repeat: repeat;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 6%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.texto-a-encriptar{
+    border-radius: 15px;
+    color: red;
+    font-style: bold;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: red; }
+    .text-area:focus {
+        outline: none;
+    }
+
+.background{
+    background-repeat: repeat;
+}
+
+.texto-encriptado {
+    
+    background-image: url("Imágenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border-radius: 20px;
+    color: darkmagenta;
+    font-style: bold;
+    font-style: italic;
+    margin-left: 98px;
+    margin-top: 90px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.texto-encriptado {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.boton-encriptar {
+    background-color: gold;
+    border: 1px solid #0A3871;
+    border-radius: 100px;
+    color: darkblue;
+    font-style: italic, bold;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.boton-desencriptar {
+    background: silver;
+    border-radius: 20px;
+    color: yellow;
+    cursor: pointer;
+    font-style: bold;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.boton-copiar-texto {
+    background: green;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 208px;
+    margin-top: 380px;
+    position: fixed;
+    width: 336px;
+}
+
+.advertencia {
+    color: white;
+    font-size: 18px;
+}
+
+.pie-de-pagina {
+    color: orange;
+}

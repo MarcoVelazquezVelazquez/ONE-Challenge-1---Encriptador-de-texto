@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ONE Challenge 1 - Encriptador de texto</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    </head>
+
+    <body class="background">
+
+        <header>
+
+            <img class="logo" src="Imágenes/LogoAlura.png" alt="Logo de Alura">
+
+        </header>
+
+        <main>
+
+            <section>
+
+                <div>
+                    <textarea class="texto-a-encriptar" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                </div>
+
+                <div>
+                    <h6 class="advertencia">*Sólo letras minúsculas y sin acentos.</h6>
+                </div>
+
+                <div class="botones">
+                    <button class="boton-encriptar" onclick="botonEncriptar()">Encriptar</button>
+                    <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+                </div>
+
+            </section>
+
+            <section>
+                <div>
+                    <textarea id="CopiarTexto" class="texto-encriptado" cols="30" rows="10" placeholder=""></textarea>
+                </div>
+
+                <div>
+                    <button class="boton-copiar-texto" onclick="botonCopiarTexto()" >Copiar texto</button>
+                </div>
+                
+            </section>
+
+
+        </main>
+
+        <footer class="pie-de-pagina">
+            <p style="font-size: 10px"; italic;strong>Alura Challenge 1: Encriptador de texto. Desarrollado por Marco Antonio Velázquez Velázquez</p>
+        </footer>
+        
+        <script src="Javascript/encriptador.js"></script>
+    </body>
+
+</html>
